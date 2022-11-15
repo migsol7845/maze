@@ -2,7 +2,9 @@
     "name": "maze",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
     },
     "files": [
         "main.blocks",
@@ -16,7 +18,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.10.36",
+        "target": "1.11.37",
         "targetId": "arcade"
     },
     "supportedTargets": [
